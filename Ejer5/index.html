@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h3>Esto solo tomara dos minutos!!</h3>
+        <form>
+          <label name="name">Name: </label>
+          <br />
+          <input type="text" name="name" id="name" placeholder="Juan Carlos"/>
+
+          <br />
+          <label name="correo">Correo: </label>
+          <br />
+          <input type="email" name="correo" id="name"  placeholder="juan@corre.net"/>
+
+          <br />
+          <label for="telefono">Nro de telefono:</label>
+          <br />
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            pattern="^(?:\+?591)?(?:\s*\d){7,8}$"
+            placeholder="+591 60 11 22 33"
+          />
+          <br>
+          <label for="satisfaccion">Esta satifechó con nuestro servicio</label>
+          <div class="contenedor-radio">
+            <input type="radio" id="respuesta-yes" name="satisfaccion" value="yes" />
+            <label for="respuesta-yes">Si</label>
+            
+            <input type="radio" id="respuesta-no" name="satisfaccion" value="no" />
+            <label for="respuesta-no">No</label>
+          </div>
+          <label for="sugerencia">Escribe tus sugerencias</label>
+          <br>
+          <textarea name="sugerencia" id="sugerencia" cols="30" rows="3"></textarea>
+          <br>
+          <button type="submit">Enviar</button>
+
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

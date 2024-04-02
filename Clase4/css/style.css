@@ -1,0 +1,23 @@
+/*Selector Universal
+* {
+    background-color: aqua;
+}
+*/
+
+/*Selector list
+.claseA, .claseB {
+    background-color: gold;
+}
+*/
+
+/*Desendant combinator
+.claseA .claseB {
+    background-color: chocolate;
+}
+*/
+
+/*Child combinator
+.claseA > .claseB {
+    background-color: cyan;
+}
+*/

@@ -1,0 +1,20 @@
+/*Selectores Basicos*/
+/*Selector de elementos*/
+h1 {
+    color: violet;
+}
+
+/*Selector de clases*/
+.titulo {
+    color: orange;
+}
+
+/*Selector de Id*/
+#titulo1 {
+    color: green;
+}
+
+/*Mayor prioridad
+h1 {
+    color: violet !important;
+}*/

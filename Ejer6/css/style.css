@@ -1,0 +1,19 @@
+h1 {
+    color: purple;
+}
+
+.letra-titulo {
+    color: red;
+}
+
+.resaltar {
+    background: yellow;
+}
+
+li {
+    color: green;
+}
+
+#lista3 {
+    background-color: greenyellow;
+}
