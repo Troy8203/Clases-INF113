@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerA {
+    background-color: #F50B40;
+}
+
+.containerB {
+    background-color: #3080DE;
+}
+
+.containerA {
+    border-color: #880212;
+    border-width: 5px;
+    border-style: solid;
+}
+
+div {
+    border-radius: 1rem;
+    height: 5em;
+    color: #fff;
+    margin: .3rem;
+    padding: 1rem;
+}
